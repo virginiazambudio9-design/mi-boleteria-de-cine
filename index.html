@@ -1,38 +1,45 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CineBoxd</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-        <header>
+    <h1 class="cineboxd">CINEBOXD</h1>
+    <h2 class="subtitle">Tu Cine. Tus Peliculas.</h2>
+    <header>
         <nav>
-            <a href="index.html">Inicio</a>
-            <a href="cartelera.html">Cartelera</a>
-            <a href="tendencias.html">Tendencias</a>
-            <a href="perfildeusuario.html">Perfil</a>
-            <a href="#contacto">Contacto</a>
+            <ul class="menu">
+                <li class="menu-item"> <a class="link" href="index.html">Inicio</a> </li>
+                <li class="menu-item"> <a class="link" href="cartelera.html">Cartelera</a> </li>
+                <li class="menu-item"> <a class="link" href="tendencias.html">Tendencias</a> </li>
+                <li class="menu-item"> <a class="link" href="perfildeusuario.html">Mi Perfil</a> </li>
+                <li class="menu-item"> <a class="link" href="#contacto">Contacto</a> </li>
+            </ul>
         </nav>
     </header>
-    <section id="inicio">
-    <h1>CINEBOXD</h1>
-    <h2>Tu Cine. Tus Peliculas.</h2>
-    <video src="imagenes/Portada/35175-405504228_medium.mp4"
-    autoplay
-    muted
-    loop
-    height="500px"></video>
+    <section>
+        <video src="imagenes/Portada/35175-405504228_medium.mp4" autoplay muted loop height="760px"></video>
     </section>
-
     <footer>
-    <section id="contacto">
-    <h2>¿Quienes Somos?</h2>
-        <a href="https://github.com/virginiazambudio9-design/mi-boleteria-de-cine" target="_blank">Mi GitHub 💻</a>
-    <h2>Contactanos</h2>
-    </section>
-    <a href="mailto:juancruzbonafede@gmail.com" target="_blank">Enviar correo a juancruzbonafede@gmail.com 📧 </a>
-        <p>&copy; 2026 CineBoxd. Todos los derechos reservados.</p>
-    </footer>    
+        <section id="contacto">
+            <article>
+                <h2>¿Quienes Somos?</h2>
+                <li><a href="https://github.com/virginiazambudio9-design/mi-boleteria-de-cine" target="_blank"
+                    rel="noopener noreferrer">Mi GitHub 💻</a></li>
+                <h2>Contactanos</h2>
+            </article>
+            <article>
+                <li><a href="mailto:juancruzbonafede@gmail.com" target="_blank" rel="noopener noreferrer">Enviar correo a
+                    juancruzbonafede@gmail.com 📧 </a></li>
+                <p>&copy; 2026 CineBoxd. Todos los derechos reservados.</p>
+            </article>
+        </section>
+    </footer>
 </body>
+
 </html>
