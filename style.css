@@ -3,21 +3,19 @@ h1.cineboxd
    color: #cf00009d; 
    font-size: 40px;
    border: 2px solid #cf00009d;
-   width: 230px;
-   padding: 10px 20px;
-   display:inline-block;
-   margin: 20px auto;
+   display: flex;
    text-align: center;
+   width: 240px;
+   justify-content: center;
 }
 .subtitle {
    color: #8d0000fb;
-   font-size: 40px;
-   text-align: center;
+   font-size: 32px;
    border: 2px solid #8d0000fb;
-   padding: 10px 20px;
-   width: 500px;
-   display:inline-block;
-   margin: 20px auto;
+   width: 330px;
+   display: flex;
+   justify-content: center;
+   padding: 5px;
 }
 .subtitle2 {
    color: #8d0000fb;
@@ -26,8 +24,8 @@ h1.cineboxd
    border: 2px solid #8d0000fb;
    padding: 10px 20px;
    width: 500px;
-   display:inline-block;
-   margin: 20px auto;
+   display: flex;
+   justify-content: center;
 }
 .menu {
    list-style: none;
@@ -41,4 +39,7 @@ h1.cineboxd
 .link {
    text-decoration: none;
    color: #1a008d;
+   list-style: none;
+   display: flex;
+   justify-content: center;
 }
